@@ -15,7 +15,7 @@ on:
 
 jobs:
   test:
-    name: Test on JSK ${{ matrix.jdk_version }}
+    name: Test on JDK ${{ matrix.jdk_version }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
